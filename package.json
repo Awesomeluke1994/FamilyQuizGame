@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build_for_git": "ng build --prod --baseHref=/FamilyQuizGame/"
+    "build_for_git": "ng build --prod --baseHref=https://awesomeluke1994.github.io/FamilyQuizGame/"
   },
   "private": true,
   "dependencies": {
