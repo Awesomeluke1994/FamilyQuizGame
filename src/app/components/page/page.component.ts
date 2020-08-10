@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import {DataItem} from "../table/table.component";
+import {DataItem} from '../table/table.component';
 import { Router } from '@angular/router';
 
 @Component({
