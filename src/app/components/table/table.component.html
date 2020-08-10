@@ -1,0 +1,11 @@
+<div class="table">
+  <div class="column" *ngFor="let item of dataSet, let i = index">
+    <div id="{{i}}-{{i2}}-cell" class="cell"
+         *ngFor="let subItem of item, let i2 = index"
+         (click)="clickToShow($event, i, i2)"
+         (mouseover)="hover(subItem,  i, i2)"
+         (mouseout)="removeHover($event)">
+      <p class="text">{{subItem.value}}</p>
+    </div>
+  </div>
+</div>

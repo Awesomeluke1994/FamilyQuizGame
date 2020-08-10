@@ -1,0 +1,11 @@
+<div class="page">
+  <div class="question-area">
+    <h1> Question {{question.questionNumber}} </h1>
+
+    <h3>{{question.question}}</h3>
+  </div>
+  <app-table [dataSet]="question.answers" (complete)="complete()"></app-table>
+  <div>
+    <button *ngIf="nextQuestionShow" (click)="goToNextQuestion()">Next</button>
+  </div>
+</div>
